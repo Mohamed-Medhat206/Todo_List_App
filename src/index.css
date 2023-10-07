@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #46529d;
+  color: #fff;
+}
+.container{
+  width: 50%;
+  margin: 10% auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.listitem{
+  background-color: #fff;
+  color: #46529d;
+}
+
+.listitem p{
+  margin: 0px;
+  text-align: center;
+  padding: 10% 0px;
+}
+
+.listitem span{
+  display: inline-block;
+  text-align: center;
+  padding: 2% 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.listitem span.title{
+  background-color:#2ebaee;
+  color: #fff;
+}
+.listitem span.name,
+form input[type=text]{
+  width: 60%;
+}
+
+.listitem span.age,
+form input[type=number]{
+  width: 30%;
+}
+.listitem span.action,
+form input[type=submit]{
+  width: 10%;
+}
+
+.listitem span.icon{
+  color: red;
+  cursor: pointer;
+}
+
+form input{
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border:  0.3px solid #ccc;
+}
+
+form input[type=submit]{
+  background: #2ebaee ;
+  border: 0.3px solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+}
+
